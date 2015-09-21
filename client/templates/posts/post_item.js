@@ -1,4 +1,4 @@
-/*global Template, document, Meteor*/
+/*global Template, document, Meteor, Comments*/
 Template.postItem.helpers({
     ownPost: function () {
         return this.userId === Meteor.userId();
